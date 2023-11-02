@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to right, #f00000,#dc281e);
+}
+
+h1{
+    font-size: 200px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.s1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.s2{
+    font-size: 20px;
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+
+.buttons{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn1{
+    font-size: 16px;
+    padding: 12px 14px;
+    border-radius: 50px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(13, 57, 152);
+    font-weight: bold;
+}
+
+
+.btn2{
+    font-size: 16px;
+    padding: 12px 14px;
+    border-radius: 50px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(13, 57, 152);
+    font-weight: bold;
+}
+
+
+.btn1:hover{
+color: white;
+background-color: rgb(13, 57, 152);
+}
+
+.btn2:hover{
+    color: white;
+    background-color: rgb(13, 57, 152);
+}
